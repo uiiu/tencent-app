@@ -1,0 +1,129 @@
+#hot{
+	width: 100%;
+	height: 100%;
+}
+.hot_title_box{
+	height: 0.8rem;
+	width: 100%;
+}
+#hot .hot_title{
+	height: 0.8rem;
+	width: 100%;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 0.26rem;
+	color: #222;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	background: #fff;
+}
+#hot .hot_title .hot_search{
+	display: inline-block;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: url(../img/hot_search.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0.18rem;
+	top: 0.28rem;
+}
+.hot_list{
+	width: 100%;
+	height: auto;
+	border-bottom: 0.12rem solid #eaecee;
+}
+.hot_list .video_box{
+	width: 100%;
+	height: 3.6rem;
+	position: relative;
+}
+.hot_list .video_box video{
+	width: 100%;
+	height: 100%;
+}
+.hot_list .video_box .mask_box{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background:linear-gradient(to bottom,rgba(100,100,100,0.5) 4%,rgba(0,0,0,0) 18%);
+}
+.hot_list .video_box .mask_box .mask_title{
+	float: left;
+	line-height: 0.3rem;
+	margin-top: 0.15rem;
+	padding: 0 0.15rem;
+	font-size: 0.24rem;
+	color: #fff;
+}
+.hot_list .video_box .mask_box .bf_btn{
+	width: 1.87rem;
+	height: 0.7rem;
+	margin:0 auto;
+	margin-top: 1.42rem;
+	border-radius:0.3rem;
+	text-align: center;
+	background: rgba(100,110,100,0.6);
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.7rem;
+}
+.hot_list .video_box .mask_box .bf_btn span{
+	display: inline-block;
+}
+.hot_list .video_box .mask_box .bf_btn .hot_bf{
+	width: 0.21rem;
+	height: 0.21rem;
+	background: url(../img/hot_bf.png) no-repeat;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}
+.hot_list .video_box .mask_box .bf_btn .num_flow{
+	color: #ea3718;
+}
+.hot_list .hot_list_bottom{
+	height: 0.76rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items:center;
+}
+.hot_list .hot_list_bottom .label_box{
+	margin-left: 0.2rem;
+	height: 0.38rem;
+	line-height: 0.38rem;
+}
+.hot_list .hot_list_bottom .label_box a{
+	display: inline-block;
+	height: 100%;
+	padding: 0 0.2rem;
+	font-size: 0.2rem;
+	color: #666;
+	border-radius: 0.38rem;
+	background: #f3f3f3;
+}
+.hot_list .hot_list_bottom .comment_share{
+	height: 0.38rem;
+	margin-right: 0.2rem;
+	line-height: 0.38rem;
+}
+.hot_list .hot_list_bottom .comment_share span{
+	display: inline-block;
+}
+.hot_list .hot_list_bottom .comment_share .hot_lt{
+	width: 0.24rem;
+	height: 0.2rem;
+	background: url(../img/hot_lt.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-right: 0.1rem;
+}
+.hot_list .hot_list_bottom .comment_share .hot_share{
+	width: 0.04rem;
+	height: 0.16rem;
+	background: url(../img/hot_share.png) no-repeat;
+	background-size: 100% 100%;
+	margin-left: 0.2rem;
+}

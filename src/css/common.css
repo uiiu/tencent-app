@@ -1,0 +1,21 @@
+html{
+	font-size: 100px;
+	font-size: calc(100vw/6.4)
+}
+img{width: 100%;}
+.bgs{
+	background-size: 100% 100%;
+}
+.icon{
+	position: absolute;
+	top: 0.1rem;
+	right: 0.1rem;
+	width: 0.40rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+	background: #f14d44;
+	border-radius: 0.05rem;
+	color: #fff;
+	font-size: 0.1rem;
+}
